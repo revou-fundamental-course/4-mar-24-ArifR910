@@ -25,17 +25,17 @@ function calculateBMI() {
 
   // RADIO CHECK
   if (male.checked==false && female.checked==false)
-      result.innerHTML = `<h1 style="color: red; padding: 8.5rem 0;">Pilih Jenis Kelamin Dahulu!</h1>`;
+      result.innerHTML = `<h1 style="color: red; padding: 4rem 0;">Pilih Jenis Kelamin Dahulu!</h1>`;
   
   // BMI CALCULATION FIELD CHECK
   else if (weight === "" || isNaN(weight)) 
-      result.innerHTML = `<h1 style="color: red; padding: 8.5rem 0;">Kolom Berat Badan Kosong!</h1>`;
+      result.innerHTML = `<h1 style="color: red; padding: 4rem 0;">Kolom Berat Badan Kosong!</h1>`;
 
   else if (height === "" || isNaN(height)) 
-      result.innerHTML = `<h1 style="color: red; padding: 8.5rem 0;">Kolom Tinggi Badan Kosong!</h1>`;
+      result.innerHTML = `<h1 style="color: red; padding: 4rem 0;">Kolom Tinggi Badan Kosong!</h1>`;
 
   else if (age === "" || isNaN(age)) 
-      result.innerHTML = `<h1 style="color: red; padding: 8.5rem 0;">Kolom Usia Kosong!</h1>`;
+      result.innerHTML = `<h1 style="color: red; padding: 4rem 0;">Kolom Usia Kosong!</h1>`;
 
   else {
 
